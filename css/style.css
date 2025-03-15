@@ -1,0 +1,72 @@
+body{
+    background-color: gainsboro;
+}
+.container{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    background-color: #fff;
+    border-bottom-right-radius: 40%;
+    position: relative;
+    padding: 20px;
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+  
+}
+.contain input{
+    width: 90px;
+    height: 20px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid gray;
+    border-radius: 10px;
+}
+.contain label{
+    margin: 10px;
+}
+.icon{
+    position: absolute;
+    right: 30px;
+    margin-top: 30px;
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    color:white;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+   
+}
+.row{
+    display: flex; 
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px
+    
+}
+
+.line {
+    width: 400px; 
+    height: 2px; 
+    background-color: gray; 
+    margin-right: 10px; 
+ 
+    
+}
+.icon i{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.birth{
+    color:blueviolet;
+}
+.calc{
+    font-size: 30px;
+    margin-left: 20px;
+  
+}
